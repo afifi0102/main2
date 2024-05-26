@@ -1,0 +1,189 @@
+<style>/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #3e2e2e;
+  margin: 0;
+}
+
+
+/* Header styles */
+header {
+background-color: #5d5b5b;
+color: #fcfcfc;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+
+header h1 {
+font-size: 40px;
+margin: 0;
+text-transform: uppercase;
+letter-spacing: 0px;
+}
+
+header img {
+width: 100px;
+height: 100px;
+}
+
+/* Navigation styles */
+nav {
+background-color: #5d5b5b;
+color: whitesmoke;
+padding: 10px 20px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: #030202;
+text-decoration: none;
+font-size: 24px;
+text-transform: uppercase;
+}
+
+nav ul li a:hover {
+border-bottom: 2px solid white;
+}
+
+/* Main styles */
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-top: 50px;
+}
+
+section h2 {
+font-size: 30px;
+margin-bottom: 20px;
+text-align: center;
+letter-spacing: 0px;
+}
+
+.menu-item {
+margin-bottom: 40px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+position: relative;
+}
+
+.menu-item::before {
+content: '';
+position: absolute;
+top: -10px;
+left: -10px;
+height: 20px;
+width: 20px;
+background-color: white;
+transform: rotate(45deg);
+}
+
+.menu-item h3 {
+font-size: 24px;
+margin-bottom: 10px;
+text-transform: uppercase;
+letter-spacing: 0px;
+}
+
+.menu-item p {
+color: #654e4e;
+font-size: 23px;
+margin-bottom: 10px;
+line-height: 1.5;
+}
+
+.menu-item .price {
+font-size: 15px;
+font-weight: bold;
+color: #000000;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+.menu-item .price1 {
+font-size: 30px;
+font-weight: bold;
+color: #000000;
+position: absolute;
+top: 50px;
+right: 19px;
+}
+.menu-item .price2 {
+font-size: 30px;
+font-weight: bold;
+color: #000000;
+position: absolute;
+top: 85px;
+right: 19px;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+color: #aa4b4b;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+font-size: 14px;
+}
+/* Contact information styles */
+.contact-info {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #5d5b5b;
+color: #000000;
+padding: 10px 20px;
+}
+
+.contact-info p {
+margin: 0;
+font-size: 16px;
+}
+
+.contact-info .phone {
+font-size: 20px;
+font-weight: bold;
+}
+
+.contact-info .location {
+font-size: 24px;
+}
+#Appetizers h2,
+#Grills h2,
+#Pancakes h2,
+#Pizza h2,
+#juices h2,
+#Shawarma h2 {
+  color: #383838;
+}
+.menu-item .price {
+font-size: 30px;
+font-weight: bold;
+color: #000000;
+position: absolute;
+top: 20px;
+right: 20px;
+}</style>
