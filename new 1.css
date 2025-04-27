@@ -1,0 +1,173 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://i.pinimg.com/736x/24/cc/b8/24ccb86fed504a0fae2d1731c5ec2ef7.jpg);
+  background-size: 2750px 2750px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #252323;
+  margin: 0;
+}
+
+
+/* Header styles */
+header {
+background-color: #1eff00;
+color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 20px;
+}
+
+header h1 {
+font-size: 40px;
+margin: 0;
+text-transform: uppercase;
+letter-spacing: 5px;
+justify-content: center;
+}
+
+header img {
+width: 100px;
+height: 100px;
+}
+
+/* Navigation styles */
+nav {
+background-color: #fcfcfc;
+color: white;
+padding: 10px 20px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+nav ul li a:hover {
+border-bottom: 2px solid white;
+}
+
+/* Main styles */
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-top: 50px;
+}
+
+section h2 {
+font-size: 30px;
+margin-bottom: 20px;
+text-align: center;
+letter-spacing: 3px;
+color: #ff0000;
+text-transform: uppercase;
+}
+
+.menu-item {
+margin-bottom: 40px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+position: relative;
+}
+
+.menu-item::before {
+content: '';
+position: absolute;
+top: -10px;
+left: -10px;
+height: 20px;
+width: 20px;
+background-color: #f44336;
+transform: rotate(45deg);
+}
+
+.menu-item h3 {
+font-size: 24px;
+margin-bottom: 10px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.menu-item p {
+font-size: 16px;
+margin-bottom: 10px;
+line-height: 1.5;
+}
+
+.menu-item .price {
+font-size: 20px;
+font-weight: bold;
+color: #f44336;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+/* Footer styles */
+footer {
+background-color: #ffffff;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+font-size: 14px;
+}
+/* Contact information styles */
+.contact-info {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f44336;
+color: white;
+padding: 10px 20px;
+}
+
+.contact-info p {
+margin: 0;
+font-size: 16px;
+}
+
+.contact-info .phone {
+font-size: 20px;
+font-weight: bold;
+}
+
+.contact-info .location {
+font-size: 16px;
+}
+#sandwiches h2,
+#additives h2,
+#drinks h2 {
+  color: white;
+}
+.menu-item .price {
+font-size: 30px;
+font-weight: bold;
+color: #f44336;
+position: absolute;
+top: 20px;
+right: 20px;
+}
